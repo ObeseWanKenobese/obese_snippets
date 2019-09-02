@@ -1,3 +1,4 @@
+# WE ARE GOING TO UPDATE THIS FILE
 # WORK IN PROGRESS
 # Having issues with the datetime.strptime line outputting datetime.datetime.... wtf
 
