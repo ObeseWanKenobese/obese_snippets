@@ -6,7 +6,7 @@ import csv
 import time
 from datetime import datetime
 
-path = "C:\Users\Viola\Documents\Python\data\wind_study_cropped.csv"
+path = "path\to\csv\file"
 file = open(path, 'r')
 reader = csv.reader(file)
 
@@ -25,7 +25,7 @@ print(data[0])
 
 # write out the delta Temperature
 
-returns_path = "C:\Users\Viola\Documents\Python\data\wind_study_deltaT.csv"
+returns_path = "path\to\output\csv\file"
 file = open(returns_path, 'w')
 writer = csv.writer(file)
 writer.writerow(["Return"])
